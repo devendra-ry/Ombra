@@ -24,8 +24,6 @@ enum class Licence(@StringRes val title: Int, val source: LicenceSource, val ref
     /** A copy of the repository LICENSE: Ombra and the Obscura core. */
     Gpl3(R.string.licence_gpl, LicenceSource.Raw(R.raw.licence_gpl_3_0)),
     Apache2(R.string.licence_apache, LicenceSource.Raw(R.raw.licence_apache_2_0)),
-    Manrope(R.string.licence_ofl, LicenceSource.Asset("licenses/fonts/Manrope-OFL.txt")),
-    JetBrainsMono(R.string.licence_ofl, LicenceSource.Asset("licenses/fonts/JetBrainsMono-OFL.txt")),
 
     /** Written by the Rust build; absent from builds without it. */
     RustCrates(R.string.licence_rust_crates, LicenceSource.Asset("licenses/rust-crates.txt"), reflowed = false),
@@ -47,8 +45,6 @@ val COMPONENTS: List<Component> = listOf(
     Component("AndroidX", R.string.component_androidx, Licence.Apache2),
     Component("Kotlin", R.string.component_kotlin, Licence.Apache2),
     Component("Material Symbols", R.string.component_symbols, Licence.Apache2),
-    Component("Manrope", R.string.component_manrope, Licence.Manrope),
-    Component("JetBrains Mono", R.string.component_jetbrains_mono, Licence.JetBrainsMono),
 )
 
 /** True when the APK has the text of [licence]. */

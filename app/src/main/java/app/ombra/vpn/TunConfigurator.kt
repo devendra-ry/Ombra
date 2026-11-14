@@ -86,6 +86,6 @@ class TunConfigurator(
 
     private companion object {
         const val TAG = "OmbraTun"
-        const val SESSION_NAME = "Ombra"
+        const val SESSION_NAME = "Obscura VPN"
     }
 }

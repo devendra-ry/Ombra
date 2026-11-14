@@ -6,7 +6,7 @@
     <string name="locations_search">Search a country or city</string>
     <string name="locations_fastest_exit">Fastest exit</string>
     <string name="locations_fastest_relay">Fastest relay</string>
-    <string name="locations_fastest_hint">Ombra picks the best one when you connect</string>
+    <string name="locations_fastest_hint">Obscura VPN picks the best one when you connect</string>
     <string name="locations_pinned">Pinned</string>
     <string name="locations_all">All locations</string>
     <plurals name="locations_cities">
@@ -29,8 +29,8 @@
     <string name="locations_hide_servers">Hide the servers in %1$s</string>
     <string name="locations_loading">Loading the list</string>
     <string name="locations_missing">No list yet</string>
-    <string name="locations_missing_exits">Ombra has no exit list yet. Load it from Obscura.</string>
-    <string name="locations_missing_relays">Ombra has no relay list yet. Load it from Obscura. Fastest relay always works.</string>
+    <string name="locations_missing_exits">Obscura VPN has no exit list yet. Load it from Obscura.</string>
+    <string name="locations_missing_relays">Obscura VPN has no relay list yet. Load it from Obscura. Fastest relay always works.</string>
     <string name="locations_empty">No locations</string>
     <string name="locations_empty_detail">The list from Obscura has no servers. Load it again.</string>
     <string name="locations_refresh">Load the list</string>

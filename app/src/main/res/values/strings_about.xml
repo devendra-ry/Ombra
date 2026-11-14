@@ -40,7 +40,6 @@
     <string name="licences_missing">This build does not have this text</string>
     <string name="licence_gpl">GNU GPL 3.0</string>
     <string name="licence_apache">Apache License 2.0</string>
-    <string name="licence_ofl">SIL Open Font License 1.1</string>
     <string name="licence_rust_crates">Rust crate licences</string>
     <string name="licence_rust_notices">Rust crate licence texts</string>
     <string name="component_ombra">This app</string>
@@ -51,6 +50,4 @@
     <string name="component_androidx">Core, Activity, Annotation, Lifecycle, Navigation 3 and ProfileInstaller, by Google</string>
     <string name="component_kotlin">Standard library, kotlinx.coroutines and kotlinx.serialization, by JetBrains</string>
     <string name="component_symbols">Icons by Google</string>
-    <string name="component_manrope">Font by the Manrope Project Authors</string>
-    <string name="component_jetbrains_mono">Font by the JetBrains Mono Project Authors</string>
 </resources>

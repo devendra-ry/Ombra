@@ -296,8 +296,8 @@ surface `#F6F8F7`, success green `#2FA73B`, error red `#F4352F`, peach container
 Ombra has its own simple icon (an abstract shadow/half-moon shape on brand orange; adaptive icon
 with monochrome layer).
 
-Fonts: bundled, OFL (no downloads at runtime): a clean sans for UI (Manrope variable or the system
-font) and a mono for account numbers, keys and IPs (JetBrains Mono). Tabular numbers for stats.
+Fonts: the system sans-serif and monospace, like the official Obscura app (no bundled fonts, no downloads
+at runtime). Tabular numbers for stats.
 
 Screens (bottom navigation with 3 destinations: Connect, Locations, Settings):
 1. **Onboarding / login**: enter account number (20 digits, grouped by 4, local Verhoeff check
