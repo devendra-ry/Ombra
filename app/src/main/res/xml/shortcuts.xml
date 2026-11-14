@@ -4,7 +4,7 @@
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_connect"
+        android:icon="@drawable/ic_shortcut"
         android:shortcutDisabledMessage="@string/shortcut_disabled"
         android:shortcutId="connect"
         android:shortcutLongLabel="@string/shortcut_connect_long"
@@ -16,7 +16,7 @@
     </shortcut>
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_disconnect"
+        android:icon="@drawable/ic_shortcut"
         android:shortcutDisabledMessage="@string/shortcut_disabled"
         android:shortcutId="disconnect"
         android:shortcutLongLabel="@string/shortcut_disconnect_long"

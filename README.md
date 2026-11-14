@@ -8,7 +8,7 @@ An independent Android client for [Obscura VPN](https://obscura.net), built for 
 native Jetpack Compose app on top of the upstream Obscura Rust core, with our own patches. Ombra is not
 made by Obscura.
 
-Android 16 or newer (API 36), arm64.
+Android 15 or newer (API 35), arm64.
 
 ## Changes from the official app
 

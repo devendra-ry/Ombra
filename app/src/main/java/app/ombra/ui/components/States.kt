@@ -25,6 +25,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
@@ -36,15 +37,16 @@ import app.ombra.ui.theme.BrandOrange
 import app.ombra.ui.theme.Spacing
 import kotlinx.coroutines.delay
 
-/** The Ombra mark (moon in light and shadow) on a brand cookie. */
+/** The official Obscura icon (the TV mascot on orange) on a brand cookie. */
 @Composable
 fun OmbraMark(modifier: Modifier = Modifier, size: Dp = 96.dp) {
+    val shape = MaterialShapes.Cookie9Sided.toShape()
     Box(
-        modifier = modifier.size(size).background(BrandOrange, MaterialShapes.Cookie9Sided.toShape()),
+        modifier = modifier.size(size).clip(shape).background(BrandOrange, shape),
         contentAlignment = Alignment.Center,
     ) {
-        // The launcher foreground keeps its mark inside the middle 48 of 108 units.
-        Image(painterResource(R.drawable.ic_launcher_foreground), contentDescription = null, modifier = Modifier.fillMaxSize().scale(1.3f))
+        // The launcher foreground is full bleed orange with the mascot in its middle half.
+        Image(painterResource(R.mipmap.ic_launcher_foreground), contentDescription = null, modifier = Modifier.fillMaxSize().scale(1.3f))
     }
 }
 

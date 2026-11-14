@@ -37,7 +37,7 @@ android {
 
     defaultConfig {
         applicationId = "app.ombra"
-        minSdk = 36
+        minSdk = 35
         targetSdk = 37
         versionCode = 14
         versionName = "0.2.12"
